@@ -1,10 +1,16 @@
 {
   "name": "brocode/module-image-optimizer-amqp",
   "version": "0.0.1",
-  "description": "N/A",
+  "description": "Magento 2 module for the AMQP (RabbitMQ) integration of the Image Optimizer Queue module",
+  "license": ["MIT"],
+  "authors": [
+    {
+      "name": "Benjamin Rosenberger",
+      "email": "bensch.rosenberger@gmail.com"
+    }
+  ],
   "type": "magento2-module",
   "require": {
-    "magento/framework": "*",
     "brocode/module-image-optimizer-queue": "*"
   },
   "autoload": {
@@ -14,5 +20,11 @@
     "psr-4": {
       "BroCode\\ImageAmqpOptimizer\\": ""
     }
-  }
+  },
+  "funding": [
+    {
+      "type": "By me a coffee",
+      "url": "https://www.buymeacoffee.com/brosenberger"
+    }
+  ]
 }
