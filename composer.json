@@ -1,7 +1,8 @@
 {
   "name": "brocode/module-image-optimizer-amqp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Magento 2 module for the AMQP (RabbitMQ) integration of the Image Optimizer Queue module",
+  "homepage": "https://brocode.at/modules/module-image-optimizer/",
   "license": ["MIT"],
   "authors": [
     {
